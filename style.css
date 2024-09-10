@@ -1,0 +1,46 @@
+div[class^='rowSquare'], div[class*='rowSquare']{
+    width: 640px;
+    height: 640px;
+}
+div[class^='Square'], div[class*='Square']{
+    display: flex;
+    background-color: black;
+    width: 640px;
+}
+#grid {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-style: groove;
+}
+body {
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5d0a8);
+}
+h9{
+    background-color: #447eb1;
+    border-color: rgb(156, 154, 154);
+    color: rgb(61, 60, 60);
+    width: 100%;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 22px;
+    border-style: outset;
+    margin: 0px;
+    padding: 0px;
+}
+.sizeButton{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 22px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(169, 194, 223, 0.788);
+}   
